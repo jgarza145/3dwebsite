@@ -80,10 +80,10 @@ function moveCamera()
 {
   const t = document.body.getBoundingClientRect().top;
   moon.rotateY(.1);
-  me.rotateZ(.1);
-  torus.rotateX(.1);
+  me.rotateX(.1);
+  torus.rotateY(.1);
 
-  camera.position.z = t * -0.05;
+  camera.position.z = t * -0.07;
   camera.position.x = t * -.02;
   camera.position.y = t * -.002;
 
